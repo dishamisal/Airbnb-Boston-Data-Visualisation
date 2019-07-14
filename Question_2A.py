@@ -7,7 +7,7 @@ import numpy as np
 import csv
 count = 1
 data = []
-with open('C:/Users/Disha/Desktop/Data Science/calendar.csv','rt', encoding='cp850')as f:
+with open('calendar.csv','rt', encoding='cp850')as f:
     csv_data = csv.reader(f, )
     flag = True
     for row in csv_data:
