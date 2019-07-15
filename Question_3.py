@@ -53,8 +53,6 @@ for date, listings in listing_map.items():
     listing_map_day[day] = listings
 
 sorted(listing_map_day)
-#sorted(listing_map_day)
-
 buffer_listings = {}
 new_listings = []
 days = list(range(1, 365))
@@ -77,10 +75,7 @@ for day in days:
 
 #Plot trend between new listings and visitors 
 
-#Plot new listings count
 plt.plot(days, new_listings, linestyle = ':')
-
-#Plot customers count
 plt.plot(days,customers,":")
 
 
