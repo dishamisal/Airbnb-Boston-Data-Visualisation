@@ -34,6 +34,6 @@ Approach: Using listings, I tried to find when a new listing was enlisted. I ext
 ###### Question 4:
 Given the context and data, what kind of machine learning techniques can be used to address the problem?
 
-Approach: The machine learning technique used for question one to get the vibe of the data involves technique naturally involves NLP, where each word in sentences of the "description" column gave a sentiment of the Airbnb guest. In question two, for both the parts of busiest times and price hike, a time series analysis was performed. Using sentiment analysis, one can also find what factors can contribute to the bad reviews and what contribute to the good ones, to get the overall vibe of neighbourhood.
+Approach: The machine learning technique used for question one to get the vibe of the data involves technique naturally involves NLP, where each word in sentences of the "description" column gave a sentiment of the Airbnb guest. In question two, for both the parts of busiest times and price hike, a time series analysis was performed. Sentiment analysis involves the analysis of opinions. Using sentiment analysis, one can also find what factors can contribute to the bad reviews and what contribute to the good ones, to get the overall vibe of neighbourhood.
 
 
