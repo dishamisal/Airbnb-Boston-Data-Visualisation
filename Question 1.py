@@ -49,7 +49,7 @@ model = pipeline.fit(df['combined_description'], new_target)
 
 
 #Combining name, space, description, and neighborhood_overview
-#df['combined_description'] = df.apply(lambda x: '{} {} {} {}'.format(x['name'], x['space'], x['description'], x['neighborhood_overview']), axis=1)
+df['combined_description'] = df.apply(lambda x: '{} {} {} {}'.format(x['name'], x['space'], x['description'], x['neighborhood_overview']), axis=1)
 
 
 show_topn(model.named_steps['clf'], model.named_steps['tfidf'], le.inverse_transform(model.named_steps['clf'].classes_), 5)
