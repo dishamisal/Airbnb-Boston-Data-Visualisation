@@ -4,7 +4,8 @@ Question 1:
 Can you describe the vibe of each Boston neighborhood using listing descriptions?
 
 Approach:
-The input file contains one column called description which has the description of the Airbnb guests and another row for different Boston neighborhoods. I will be using the Scikit-Learn NLP Library for sentiment analysis to get the result. The description column would cluster around descriptive words thereby giving us the vibe of each Boston neighbourhood.
+The input file contains one column called description which has the description of the Airbnb guests and another row for different Boston neighborhoods. I will be using the Scikit-Learn NLP Library for sentiment analysis to get the result. The description column would cluster around descriptive words thereby giving us the vibe of each Boston neighbourhood. Sentiment analysis to get the sentiment attached and Summarisation to fetch highly associated and informative words from the description. Using clustering, we can find common cluster center's which define the vibe of the neighbourhood.
+Reference: https://www.kaggle.com/bnsmith3/phrases-that-charactertize-each-neighborhood 
 
 
 Question 2:
@@ -23,4 +24,11 @@ Question 3:
 Is there a general upward trend of both new Airbnb listings and total Airbnb visitors to Boston?
 
 Approach: No new listings are present in the given file. After quick analysis, I did not find any new listings in the availability dataset, hence we cannot find any trend that might exist between the new Airbnb listings and the total Airbnb visitors to Boston.
+
+
+Question 4:
+Given the context and data, what kind of machine learning techniques can be used to address the problem?
+
+Approach: One large scale Analysis where all this can come together is predicting if a new listing will have good reviews or not. And a deeper analysis of what leads to bad reviews. The machine learning technique used for question one to get the vibe of the data involves technique naturally involves NLP, where each word in sentences of the "description" column gave a sentiment of the Airbnb guest. In question two, for both the parts of busiest times and price hike, there is a time series analysis done. 
+
 
