@@ -8,9 +8,7 @@ import nltk
 from nltk import wordpunct_tokenize          
 from nltk.stem import WordNetLemmatizer
 from nltk import *
-#from nltk import wordnet
 from nltk.corpus import wordnet
-#from wordnet import Dictionary
 
 
 class LemmaTokenizer(object):
