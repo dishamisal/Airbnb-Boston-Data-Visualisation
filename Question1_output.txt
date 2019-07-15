@@ -1,17 +1,3 @@
-Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
-====================== RESTART: F:\Q1\Question No 1.py ======================
-
-Warning (from warnings module):
-  File "C:\Program Files\Python37\lib\site-packages\sklearn\feature_extraction\text.py", line 300
-    'stop_words.' % sorted(inconsistent))
-UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['ha', 'le', 'u', 'wa'] not in stop_words.
-
-Warning (from warnings module):
-  File "C:\Program Files\Python37\lib\site-packages\sklearn\linear_model\stochastic_gradient.py", line 152
-    DeprecationWarning)
-DeprecationWarning: n_iter parameter is deprecated in 0.19 and will be removed in 0.21. Use max_iter and tol instead.
 Adams: ballard ha, plum, lock, heart ballard, ballard
 Alki: beach bedroom, water, alki beach, beach, alki
 Arbor Heights: yard bathroom, beach super, treehouse yard, treehouse, playroom
