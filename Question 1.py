@@ -48,7 +48,7 @@ model = pipeline.fit(df['combined_description'], new_target)
 
 
 
-# let's combine the name, space, description, and neighborhood_overview into a new column
+#Combining name, space, description, and neighborhood_overview
 #df['combined_description'] = df.apply(lambda x: '{} {} {} {}'.format(x['name'], x['space'], x['description'], x['neighborhood_overview']), axis=1)
 
 
