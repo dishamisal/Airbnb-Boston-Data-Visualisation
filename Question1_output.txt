@@ -1,0 +1,102 @@
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+====================== RESTART: F:\Q1\Question No 1.py ======================
+
+Warning (from warnings module):
+  File "C:\Program Files\Python37\lib\site-packages\sklearn\feature_extraction\text.py", line 300
+    'stop_words.' % sorted(inconsistent))
+UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['ha', 'le', 'u', 'wa'] not in stop_words.
+
+Warning (from warnings module):
+  File "C:\Program Files\Python37\lib\site-packages\sklearn\linear_model\stochastic_gradient.py", line 152
+    DeprecationWarning)
+DeprecationWarning: n_iter parameter is deprecated in 0.19 and will be removed in 0.21. Use max_iter and tol instead.
+Adams: ballard ha, plum, lock, heart ballard, ballard
+Alki: beach bedroom, water, alki beach, beach, alki
+Arbor Heights: yard bathroom, beach super, treehouse yard, treehouse, playroom
+Atlantic: chinatown, self check, atlantic, international, international district
+Belltown: vacation rental, heart belltown, vacation, belltown neighborhood, belltown
+Bitter Lake: bathroom nearly, spencer, shared, dedicated, shared just
+Briarcliff: block magnolia, discovery park, discovery, adu, magnolia
+Brighton: link rail, new sheet, light link, serene room, right light
+Broadview: older quiet, home older, broadview, carkeek park, carkeek
+Broadway: heart capitol, hill, capitol hill, capitol, broadway
+Bryant: child, hospital, away burke, child hospital, bryant
+Cedar Park: excuse, mess picture, 16 unit, condo 16, mn
+Central Business District: pike place, step, step property, harbor, harbor step
+Columbia City: light rail, heart columbia, city, columbia, columbia city
+Crown Hill: north, greenwood neighborhood, cute north, crown, crown hill
+Dunlap: theatrical, theatrical prop, prop, block light, rainier beach
+East Queen Anne: union cascade, queen anne, anne, union, lake union
+Eastlake: eastlake neighborhood, union mountain, lake union, union, eastlake
+Fairmount Park: cottage west, 117, 117 night, west seattle, entire cottage
+Fauntleroy: located !!, luxury puget, lincoln, fauntleroy ferry, fauntleroy
+First Hill: state, state convention, center, convention center, convention
+Fremont: chocolate, universe, troll, center universe, fremont
+Gatewood: vashon, morgan junction, morgan, lincoln, lincoln park
+Genesee: large high, west seattle, alaska, alaska junction, junction
+Georgetown: hallway restored, floor wainscotting, 1904, georgetown seattle, georgetown
+Green Lake: popular green, greenlake, lake, green, green lake
+Greenwood: le hour, block greenwood, greenwood neighborhood, greenwood ave, greenwood
+Haller Lake: convert, mall, living area, northgate, northgate mall
+Harrison/Denny-Blaine: chezanne, positive energy, bird, thee, madison
+High Point: hang paul, month, month rent, washcloth bathroom, floor west
+Highland Park: great summer, summer house, interesting diverse, highland park, highland
+Holly Park: cozy room, mercedes, mercedes rv, mile ),, rv
+Industrial District: old rainier, van, spa, rainier brewery, vw
+Interbay: shared living, facility apartment, close bye, magnolia, ballard fremont
+International District: heart international, main hall, buddhist, chinatown, temple
+Laurelhurst: walkable laurelhurst, suite like, hospital street, laurelhurst neighborhood, laurelhurst
+Lawton Park: queen ann, magnolia neighborhood, discovery park, discovery, magnolia
+Leschi: madrona, master room, lake washington, leschi neighborhood, leschi
+Lower Queen Anne: space needle, needle, lower, seattle center, lower queen
+Loyal Heights: ballard hottest, eva, loyal, eva rose, ballard
+Madison Park: popular, broadmoor, beach, madison, madison park
+Madrona: shop restaurant, cosy, heart madrona, madrona neighborhood, madrona
+Mann: central, madison, valley, central district, madison valley
+Maple Leaf: northgate, northgate nan, maple, leaf, maple leaf
+Matthews Beach: beach burke, mathews beach, mathews, matthew beach, matthew
+Meadowbrook: perfect private, meadowbrook, library cd, beautiful furnished, tiny house
+Mid-Beacon Hill: georgetown, beacon, ??, 36, stop 36
+Minor: central, swedish, central district, cherry, cherry hill
+Montlake: arboretum, finest neighborhood, commercial, commercial area, montlake
+Mount Baker: mount baker, baker neighborhood, mt, mt baker, baker
+North Admiral: admiral district, west seattle, north admiral, alki, admiral
+North Beach/Blue Ridge: private beach, offer rare, blue ridge, beach, north beach
+North Beacon Hill: jefferson park, north beacon, jefferson, beacon hill, beacon
+North College Park: far city, house far, city fresh, study desk, air quiet
+North Delridge: urban chic, north delridge, west, delridge, west seattle
+North Queen Anne: north queen, fremont, queen, anne, queen anne
+Olympic Hills: lit room, family home, new bamboo, try photo, lake city
+Phinney Ridge: woodland park, zoo, ridge, phinney ridge, phinney
+Pike-Market: location luxury, wheel, marketside flat, marketside, hostel
+Pinehurst: just 10, minimalist, victoria creek, 10 mile, creek
+Pioneer Square: waterfront pike, historic, pioneer square, pioneer, distance stadium
+Portage Bay: view portage, roanoke park, portage bay, portage, roanoke
+Rainier Beach: kubota garden, kubota, hallway adjacent, adjacent kitchen, wing
+Ravenna: lake park, shopping center, university village, village, ravenna
+Riverview: dog, nearby area, cohousing community, long block, cohousing
+Roosevelt: leaf, nan couch, maple, maple leaf, roosevelt
+Roxhill: ton cooking, shopping feel, 35th, 35th ave, hidden url
+Seaview: lincoln park, infrared sauna, infrared, park alki, far infrared
+Seward Park: columbia, columbia city, block lake, seward, seward park
+South Beacon Hill: located seatac, neighborhood beacon, va hospital, south va, life upper
+South Delridge: barnes, barnes noble, walk westwood, white center, westwood
+South Lake Union: brunch seattle, south lake, bay cafe, amazon, fun bar
+South Park: south park, place rest, georgetown, farmhouse great, farmhouse
+Southeast Magnolia: elliott, elliott bay, discovery, discovery park, magnolia
+Stevens: shared, budget, 15th, group, shared room
+Sunset Hill: golden garden, garden beach, ballard private, sunset, sunset hill
+University District: town normally, university district, district, university, uw
+Victory Heights: northgate shopping, fun house, heart lake, simple bedroom, lake city
+View Ridge: private seating, inverness1, christmas, magnuson, magnuson park
+Wallingford: seattle tech, wallingford neighborhood, tech, greenlake, wallingford
+Wedgwood: walking neighborhood, creek, creek house, maple creek, wedgwood
+West Queen Anne: new pillow, craftsman, queen, anne, queen anne
+West Woodland: slowly, furniture, beautiful brand, brewery, ballard
+Westlake: lillie, boyfriend, onsite, walk south, yacht
+Whittier Heights: ballard, hen, fat hen, delancey, honore
+Windermere: basically city, lake washington, hospital easy, lakefront, lakefront home
+Yesler Terrace: hill capitol, staying room, district apartment, hill international, located hill
+>>> 
