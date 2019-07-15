@@ -1,14 +1,14 @@
 # Airbnb-Boston-Data-Visualisation
 
 ###### Question 1:
-Can you describe the vibe of each Boston neighborhood using listing descriptions?
+###### Can you describe the vibe of each Boston neighborhood using listing descriptions?
 
 Approach:
 The input file contains one column called description which has the description of the Airbnb guests about their experience in the Airbnb stay. I used the Python Natural Language Toolkit (NLTK) library for getting the results. The description column would cluster around descriptive words thereby giving us the vibe of each Boston neighbourhood. Clustering can help find common cluster centers, defining the vibe of the Boston neighbourhood. In the output file I have a words defining the vibe of the neighbourhood. Here I have performed the summarisation and tokenization of listing description. [Here](https://www.kaggle.com/bnsmith3/phrases-that-charactertize-each-neighborhood) is the reference that I used to get the vibe: 
 
 
 ###### Question 2:
-What are the busiest times of the year to visit Boston? By how much do prices spike?
+###### What are the busiest times of the year to visit Boston? By how much do prices spike?
 
 Approach:
 1) For busiest times of the year: 
@@ -24,7 +24,7 @@ In the same file, keeping the x-axis date convertion the same, I plotted the ave
 
 
 ###### Question 3:
-Is there a general upward trend of both new Airbnb listings and total Airbnb visitors to Boston?
+###### Is there a general upward trend of both new Airbnb listings and total Airbnb visitors to Boston?
 
 Approach: Using listings, I tried to find when a new listing was enlisted. I extracted new listings by tracking all the old listings and found that there were no new listings in the dataset. I would have used market basket associativity rules to find out if the upward trend of new listings popping had any relation to increase in customer base, in case there would have been new listings in the dataset. After a quick analysis, I conclude that there are no new listings in the available dataset. Hence we cannot find any trend that might exist between the new Airbnb listings and the total Airbnb visitors to Boston.
 
@@ -32,7 +32,7 @@ Approach: Using listings, I tried to find when a new listing was enlisted. I ext
 
 
 ###### Question 4:
-Given the context and data, what kind of machine learning techniques can be used to address the problem?
+###### Given the context and data, what kind of machine learning techniques can be used to address the problem?
 
 Approach: The machine learning technique used for question one to get the vibe of the data involves technique naturally involves NLP, where each word in sentences of the "description" column gave a sentiment of the Airbnb guest. In question two, for both the parts of busiest times and price hike, a time series analysis was performed. Sentiment analysis involves the analysis of opinions. Using sentiment analysis, one can also find what factors can contribute to the bad reviews and what contribute to the good ones, to get the overall vibe of neighbourhood.
 
