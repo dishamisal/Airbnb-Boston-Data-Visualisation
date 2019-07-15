@@ -31,6 +31,9 @@ Is there a general upward trend of both new Airbnb listings and total Airbnb vis
 
 Approach: No new listings are present in the given file. After quick analysis, I did not find any new listings in the availability dataset, hence we cannot find any trend that might exist between the new Airbnb listings and the total Airbnb visitors to Boston.
 
+Output Plot:
+![](Trend.png)
+
 
 Question 4:
 Given the context and data, what kind of machine learning techniques can be used to address the problem?
