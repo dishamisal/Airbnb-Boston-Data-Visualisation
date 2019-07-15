@@ -4,7 +4,7 @@
 ###### Can you describe the vibe of each Boston neighborhood using listing descriptions?
 
 Approach:
-The input file contains one column called description which has the description of the Airbnb guests about their experience in the Airbnb stay. I used the Python Natural Language Toolkit (NLTK) library for getting the results. The description column would cluster around descriptive words thereby giving us the vibe of each Boston neighbourhood. Clustering can help find common cluster centers, defining the vibe of the Boston neighbourhood. In the output file I have a words defining the vibe of the neighbourhood. Here I have performed the summarisation and tokenization of listing description. [Here](https://www.kaggle.com/bnsmith3/phrases-that-charactertize-each-neighborhood) is the reference that I used to get the vibe: 
+The input file contains one column called description which has the description of the Airbnb guests about their experience in the Airbnb stay. I used the Python Natural Language Toolkit (NLTK) library for getting the results. The description column would cluster around descriptive words thereby giving us the vibe of each Boston neighbourhood. Clustering can help find common cluster centers, defining the vibe of the Boston neighbourhood. In the output file I have a words defining the vibe of the neighbourhood. Here I have performed the summarisation and tokenization of listing description. [Here](https://www.kaggle.com/bnsmith3/phrases-that-charactertize-each-neighborhood) is the reference that I used to get the vibe. 
 
 
 ###### Question 2:
@@ -34,6 +34,16 @@ Approach: Using listings, I tried to find when a new listing was enlisted. I ext
 ###### Question 4:
 ###### Given the context and data, what kind of machine learning techniques can be used to address the problem?
 
-Approach: The machine learning technique used for question one to get the vibe of the data involves technique naturally involves NLP, where each word in sentences of the "description" column gave a sentiment of the Airbnb guest. In question two, for both the parts of busiest times and price hike, a time series analysis was performed. Sentiment analysis involves the analysis of opinions. Using sentiment analysis, one can also find what factors can contribute to the bad reviews and what contribute to the good ones, to get the overall vibe of neighbourhood.
+Approach: The machine learning technique used for question 1 to get the vibe of the data involves Natural Language Processing (NLP), where each word in sentences of the "description" column gave a sentiment of each of the Airbnb guest. The first step was to tokenize sentences to break them into words and get the tokens of the text.
+
+Sentiment analysis, which is a part of NLP, is a technique that extracts the sentiment behind the opinions of people. Using this technique, one can also find what factors contribute to the bad reviews and what contribute to the good ones, to get the overall vibe of neighbourhood. In question 2, for both the parts of busiest times and price hike, a time series analysis was performed. This technique deals with time series data or trend analysis. It is used in  forecasting, monitoring or even feedback and feedforward control. This technique showed the trend of availability of Airbnb rooms and price with respect to dates.
+
+
+References: 
+1. https://en.wikipedia.org/wiki/Sentiment_analysis
+2. https://en.wikipedia.org/wiki/Natural_Language_Toolkit
+3. https://www.quora.com/What-is-the-relation-between-sentiment-analysis-natural-language-processing-and-machine-learning
+4. https://www.kaggle.com/bnsmith3/phrases-that-charactertize-each-neighborhood
+5. https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc41.htm
 
 
