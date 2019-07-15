@@ -17,6 +17,7 @@ with open('calendar.csv','rt', encoding='cp850')as f:
         if row[2] == 'f':
             data.append(row[1])
 
+#Convert date to day of the year            
 avail_map = {}
 for date in data:
     date_str = date.split('.')[0]
