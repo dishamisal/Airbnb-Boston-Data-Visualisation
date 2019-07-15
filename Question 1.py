@@ -29,7 +29,7 @@ def show_topn(classifier, vectorizer, categories, n):
         
         
         # read in a few columns from the data and show the top of the resulting dataframe
-df = pd.read_csv("C:/Users/aim/Desktop/python projects/disha/listings1.csv", usecols = ['id', 'name', 'space', 'description', 'neighborhood_overview', 'neighbourhood_cleansed'])
+df = pd.read_csv("listings1.csv", usecols = ['id', 'name', 'space', 'description', 'neighborhood_overview', 'neighbourhood_cleansed'])
 df.head()
 
 df['combined_description'] = df.apply(lambda x: '{} {} {} {}'.format(x['name'], x['space'], x['description'], x['neighborhood_overview']), axis=1)
