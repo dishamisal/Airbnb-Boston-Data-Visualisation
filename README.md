@@ -22,6 +22,9 @@ Output Plot:
 2) For price spike:
 In the same file, keeping the x-axis date convertion the same, I plotted the average price of the hotels on the y-axis. the highest average price spikes upto $120. The period with the spike is day 345 to day 365 of the year. This is equivalent to December 11, 2016 to 31st December, 2016. 
 
+Output Plot:
+![](Prices.png)
+
 
 Question 3:
 Is there a general upward trend of both new Airbnb listings and total Airbnb visitors to Boston?
