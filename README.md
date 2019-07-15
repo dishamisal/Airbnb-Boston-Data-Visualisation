@@ -4,7 +4,7 @@
 Can you describe the vibe of each Boston neighborhood using listing descriptions?
 
 Approach:
-The input file contains one column called description which has the description of the Airbnb guests about their experience in the Airbnb stay. I used the Python Natural Language Toolkit (NLTK) library for getting the results. The description column would cluster around descriptive words thereby giving us the vibe of each Boston neighbourhood. Clustering can help find common cluster centers, defining the vibe of the Boston neighbourhood. In the output file I have a words defining the vibe of the neighbourhood. The output contains. Here is the reference that I used to get the vibe: https://www.kaggle.com/bnsmith3/phrases-that-charactertize-each-neighborhood
+The input file contains one column called description which has the description of the Airbnb guests about their experience in the Airbnb stay. I used the Python Natural Language Toolkit (NLTK) library for getting the results. The description column would cluster around descriptive words thereby giving us the vibe of each Boston neighbourhood. Clustering can help find common cluster centers, defining the vibe of the Boston neighbourhood. In the output file I have a words defining the vibe of the neighbourhood. The output contains. [Here] (https://www.kaggle.com/bnsmith3/phrases-that-charactertize-each-neighborhood) is the reference that I used to get the vibe: 
 
 
 ###### Question 2:
