@@ -20,7 +20,7 @@ with open('calendar.csv','rt', encoding='cp850')as f:
         else:
             listing_map[row[1]] = {row[0]}
 
-
+#Converting dates to day of the year
 avail_map = {}
 for date in data:
     date_str = date.split('.')[0]
@@ -74,13 +74,14 @@ for day in days:
             new_listings.append(n) 
     else:
         new_listings.append(0)
-#print(listing_map_day.keys())
 
-#plot new listings count
+#Plot trend between new listings and visitors 
+
+#Plot new listings count
 plt.plot(days, new_listings, linestyle = ':')
 
-#plt.plot(days,customers,":",
-#days,new_listings,"*-")
+#Plot customers count
+plt.plot(days,customers,":")
 
 
 
