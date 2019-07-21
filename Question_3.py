@@ -52,13 +52,11 @@ for date, listings in listing_map.items():
     day = date_obj.timetuple().tm_yday
     listing_map_day[day] = listings
 
-sorted(listing_map_day)
 buffer_listings = {}
 new_listings = []
 days = list(range(1, 365))
 for day in days:
     if day in listing_map_day.keys():
-        print(len(listing_map_day[day]))
         if not buffer_listings:
             buffer_listings = listing_map_day[day]
             new_listings.append(0)
